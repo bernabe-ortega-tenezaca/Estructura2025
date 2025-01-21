@@ -3,4 +3,6 @@
 // miperro(variable) instancia de la clase = objeto
 // Perro miperro = new Perro("Firulais");
 
-Arrays.run();
+//Arrays.run();
+//Listas.run();
+ListasTarea1.run();
