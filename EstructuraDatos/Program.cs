@@ -22,10 +22,12 @@ foreach (var item in miPila)
     Console.WriteLine(item);
 }
 
-miPila.Pop();//Elimina el último elemento de la pila
+int eliminado = miPila.Pop();//Captura el valor eliminado, el último elemento de la pila
 Console.WriteLine();
 Console.WriteLine("Los valores de la pila son:");
 foreach (var item in miPila)
 {
     Console.WriteLine(item);
 }
+
+Console.WriteLine($"El valor eliminado es: {eliminado}");
