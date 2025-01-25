@@ -7,4 +7,15 @@
 //Listas.run();
 //ListasTarea1.run();
 //Pilas.run();
-PilasOtro.run();
+//PilasOtro.run();
+
+Stack<int> pilaEnteros = new Stack<int>();
+
+pilaEnteros.Push(100);
+pilaEnteros.Push(3);
+pilaEnteros.Push(7);
+
+foreach ( var item in pilaEnteros)
+{
+    Console.WriteLine(item);
+}
