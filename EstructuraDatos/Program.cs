@@ -19,3 +19,12 @@ foreach ( var item in pilaEnteros)
 {
     Console.WriteLine(item);
 }
+
+//Mostrar el elemento de la parte superior sin eliminar
+int ultimoelemento = pilaEnteros.Peek();
+Console.WriteLine($"El último elemento es: {ultimoelemento}");
+
+foreach ( var item in pilaEnteros)
+{
+    Console.WriteLine(item);
+}
