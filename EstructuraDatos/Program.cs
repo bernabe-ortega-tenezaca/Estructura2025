@@ -28,3 +28,13 @@ foreach ( var item in pilaEnteros)
 {
     Console.WriteLine(item);
 }
+
+//Elimina el último elemento
+int numeroelminado = pilaEnteros.Pop();
+Console.WriteLine();
+foreach ( var item in pilaEnteros)
+{
+    Console.WriteLine(item);
+}
+
+Console.WriteLine($"\n se ha eliminado el {numeroelminado}");
