@@ -39,3 +39,4 @@ foreach (var item in miPila)
 {
     Console.WriteLine(item);
 }
+// Esta solución es ineficiente porque repite mucho código innecesariamente.
